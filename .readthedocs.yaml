@@ -7,3 +7,10 @@ build:
 
 sphinx:
   configuration: source/conf.py
+
+python:
+  install:
+    - method: pip
+      packages:
+        - sphinx
+        - sphinx-rtd-theme
